@@ -5,7 +5,7 @@
 define('REFERER_URL', ''); //如：define('REFERER_URL', 'www.yy44.club|jx.hh66.xyz|');
 
 //此处设置防盗信息及错误提示
-define('ERROR', '<html><meta name="robots" content="noarchive"><head><title>全网视频在线解析服务</title></head><style>h1{color:#C7636C; text-align:center; font-family: Microsoft Jhenghei;}p{color:#f90; font-size: 1.2rem;text-align:center;font-family: Microsoft Jhenghei;}</style><body bgcolor="#000000"><table width="100%" height="100%" align="center"><td align="center"><h1>本站接口不对外开放</h1><p>如需使用，请联系本站管理员进行授权</p></table></body></html>');
+define('ERROR', '<html><meta name="robots" content="noarchive"><head><title>解析服务</title></head><style>h1{color:#C7636C; text-align:center; font-family: Microsoft Jhenghei;}p{color:#f90; font-size: 1.2rem;text-align:center;font-family: Microsoft Jhenghei;}</style><body bgcolor="#000000"><table width="100%" height="100%" align="center"><td align="center"><h1>本站接口不对外开放</h1><p>如需使用，请联系本站管理员进行授权</p></table></body></html>');
 //此处进行用户相关配置
 $user = array(
 
@@ -13,7 +13,7 @@ $user = array(
 
 		'token' => '4e1a1bbafcbe7f8c7eac252f61a3c9fa', //这里填写你的用户密匙信息,用户授权TOKEN，不用改
 
-		'path' => '/jiexi', //一般不用修改,除非你放置在二级目录，修改格式 '/jiexi' (修改二级目录一定看好格式)
+		'path' => '/hsjifeng/jifeng', //一般不用修改,除非你放置在二级目录，修改格式 '/jifeng' (修改二级目录一定看好格式)
 
 		'hdd' => '3', //视频默认清晰度，1标清，2高清，3超清，4原画，如果没有高清会自动下降一级（请保持默认，无需修改）
   
@@ -27,9 +27,9 @@ $user = array(
   
 		'ather' => 'https://www.yy44.club/jiexi/?url=', //已为大家设置好备用接口,无特殊要求可以不用更改,备用接口有小gg,如果不需要删除即可.//填写实例：'ather' => 'https://www.yy44.club./jiexi?url=',
 
-		'dplayer' => '猫先生解析,https://jx.hh66.xyz', //用户设置dplayer播放器右键,不设置请留空。填写实例:'dplayer' => '猫先生解析,https://jx.hh66.xyz.'
+		'dplayer' => '解析,https://jx.hh66.xyz', //用户设置dplayer播放器右键,不设置请留空。填写实例:'dplayer' => '解析,https://jx.hh66.xyz.'
 		
-		'title' => '猫先生视频解析', //设置解析页面title名称   例如：'title' => '猫先生视频解析',
+		'title' => '视频解析', //设置解析页面title名称   例如：'title' => '视频解析',
 
 		'tongji' => '', //用户统计代码.  例如:s6.cnzz.com/z_stat.php?id=xxxxx&web_id=xxxxx,百度统计与之类似.不会添加的话就直接把统计代码加到index.php底部!
 
@@ -43,7 +43,7 @@ $user = array(
 
 		'skin' => '4', //ckplayer播放器样式共4种,修改参数后更换播放器样式. 参数说明：1,2,3,4
 
-		'hand' => '猫先生解析,https://jx.hh66.xyz', //ckplayer播放器右键,例如:'hand'=>'猫先生解析,https://jx.hh66.xyz'
+		'hand' => '解析,https://jx.hh66.xyz', //ckplayer播放器右键,例如:'hand'=>'解析,https://jx.hh66.xyz'
 
 ) 			
 //-----------------------修改区域结束---------------------------------------
