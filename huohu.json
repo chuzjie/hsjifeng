@@ -40,6 +40,14 @@
     },
   
 
+                 
+                   {"key":"csp_Ikanbot","name": "💋┃疾风┃爱看","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"[排序:lz线路,kuaik]",
+   
+//"jar": "./lib/Hk.jar"
+   
+                    "jar": "https://gitee.com/huasjf/tvbox/raw/master/lib/Hk.jar"            },  
+            
+
         {
         "key": "达达龟",
         "name": "💞疾风┃蓝光",
@@ -52,18 +60,14 @@
     },
     
   
-    {
-      "key": "hetv_77yy",
-      "name": "💞七七┃影视",
-      "type": 3,
+                          {"key": "meowtv_ngys","name": "💞极速┃南瓜",
       
-        
-            "jar": "./lib/heos1.jar",
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
+
+  "jar": "https://gitee.com/huasjf/tvbox/raw/master/lib/fan.txt;md5;md5;6695b4fe705a1eedcae352abe5412640",
+      
+      "type": 3,"api": "csp_NanGua"     ,"searchable": 1,"quickSearch": 1,"changeable": 1,"playerType": 2},
+
+
     {
       "key": "hwtv_yqks",
       "name": "💞一起┃影视",
@@ -138,18 +142,15 @@
           },  
          
             
-               
-                     { 
-             "key": "csp_WoGG", 
-             "name": "👽疾风┃玩偶4k手机下载阿里云盘扫码授权",
-             "type": 3, 
-     "jar": "./lib/jfm.jar",   
-             "api": "csp_WoGG", 
-             "changeable": 0, 
-             "searchable": 1, 
-             "quickSearch": 1, 
-             "ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt+auto|fhd|4K$$$https://wogg.xyz/"
-     },        
+                  {"key":"玩偶哥哥","name":"👽玩偶哥哥┃4K","type":3,
+   
+   
+  "jar": "https://gitee.com/huasjf/tvbox/raw/master/lib/fan.txt;md5;md5;6695b4fe705a1eedcae352abe5412640",
+   
+//"jar": "./lib/uyv0t678c488189af47bb91dc108484d17431.jar;md5;aeb168169682631c93874c9bd8a97e74",
+   "api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|auto|fhd$$$https://wogg.xyz/$$$弹"},
+
+
 
     {  "key": "csp_XYQHiker_农民影视",
        "name":"💞疾风┃农民极速",
